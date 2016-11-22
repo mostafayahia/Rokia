@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="free.elmasry.rokia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/rokia_ic"
+        android:label="@string/str_rokia"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RokiaConditionsActivity"
+            android:label="@string/title_activity_conditions"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ListenRokiaActivity"></activity>
+    </application>
+
+</manifest>

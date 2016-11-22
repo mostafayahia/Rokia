@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- texts for what will be displayed in entry fragment -->
+    <string name="entry_str_close_after_finishing">غلق التطبيق بعد الأنتهاء من السماع</string>
+    <string name="entry_str_repeat_after_finishing">تكرار الرقية بعد الأنتهاء</string>
+    <string name="entry_str_rokia_conditions">شروط الرقية</string>
+    <string name="entry_str_listen_rokia">سماع الرقية</string>
+
+    <!-- texts used for formatting time -->
+    <string name="str_minute">دقيقة</string>
+    <string name="str_minutes">دقائق</string>
+    <string name="str_one_minute">دقيقة واحدة</string>
+    <string name="str_two_minutes">دقيقتان</string>
+    <string name="str_less_than_one_minute">أقل من دقيقة</string>
+
+    <!-- text appearing in the views in listen rokia fragment -->
+    <string name="listen_rokia_str_start">بدء التشغيل</string>
+    <string name="listen_rokia_shiekh">الشيخ: محمد الجورانى</string>
+    <string name="listen_rokia_user_hint">لإيقاف أو أستئناف سماع الرقية فقط قم بالنقر على الشاشة</string>
+    <string name="listen_rokia_str_replay">إعادة تشغيل</string>
+
+    <!-- miscellaneous text -->
+    <string name="app_name">Rokia</string>
+    <string name="str_remaining_time">الوقت المتبقى</string>
+    <string name="str_rokia">الرقية الشرعية</string>
+
+
+
+
+    <string name="rokia_conditions">
+"
+الرّقية لغةً جاءت بمعنى العوذ الذي يرقى به المريض، أمّا بالنسبة للرقية الشرعيّة فهي طلب الشّفاء بالدّعاء إلى الله عزّ وجلّ
+
+إنّ للرقية الشّرعية الصّحيحة شروطاً، وهي:
+1- أن تكون الرّقية الشّرعية بكلام الله سبحانه وتعالى، أو بأسمائه، أو صفاته، أو ما هو مأثور عن النّبي صلّى الله عليه وسلّم.
+2- أن تكون باللسان العربي، وهذا شرط عند ابن تيمية، وأن تكون ممّا يعرف معناه، لأنّ كلّ اسم مجهول ليس لأحد أن يرقي به، فضلاً عن أن يدعو به، حتى وإن عرف معناه، وذلك لأنّه يكره الدّعاء بغير اللغة العربيّة، ويرخص ذلك لمن كان لا يحسن نطق اللغة العربيّة، فأمّا جعل الألفاظ الأعجمية شعاراً فليس من دين الإسلام.
+3- أن يعتقد المسلم أنّ الرّقية الشّرعية لا تؤثّر بذاتها بل بتقدير الله سبحانه وتعالى.
+
+وفي حال اجتمعت هذه الشّروط الثّلاثة فإنّ الرقية تعتبر شرعيّةً، وقد قال صلّى الله عليه وسلّم:" لا بأس بالرّقى ما لم تكن شركاً "، رواه مسلم، وإنّ أنفع أنواع الرّقية وأكثرها تأثيراً هي رقية الإنسان نفسه
+"
+    </string>
+    <string name="title_activity_conditions">ConditionsActivity</string>
+
+
+</resources>

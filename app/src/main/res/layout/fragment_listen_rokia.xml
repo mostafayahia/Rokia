@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!-- setting gravity center will centered elements both horizontally and vertically so you don't
+    have to set layout_gravity to be center_horizontal for each child --><!-- android:layout_gravity="center_vertical" is so important to center the layout itself -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listen_rokia_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- remaining time, shiekh reader, play button, user hint -->
+    <TextView
+        android:id="@+id/listen_rokia_time_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="#ff00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/listen_rokia_shiekh"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f880" />
+
+    <Button
+        android:id="@+id/listen_rokia_replay_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="@string/listen_rokia_str_start"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/listen_rokia_user_hint" />
+
+</LinearLayout>

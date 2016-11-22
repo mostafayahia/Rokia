@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- setting paddingBottom is important for the last element to appear in scrolling in the landscape -->
+    <!-- android:layout_gravity="center_vertical" is so important to center the layout itself -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:paddingBottom="32dp">
+
+        <!-- listen rokia, rokia conditions button -->
+        <Button
+            android:id="@+id/entry_rokia_conditions_button"
+            style="@style/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/entry_str_rokia_conditions" />
+
+        <Button
+            android:id="@+id/entry_listen_button"
+            style="@style/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="64dp"
+            android:text="@string/entry_str_listen_rokia" />
+
+        <!-- options for user (repeat or close app after finishing) -->
+        <RadioButton
+            android:id="@+id/entry_close_after_finishing_radio"
+            style="@style/radioStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/entry_str_close_after_finishing" />
+
+        <RadioButton
+            android:id="@+id/entry_repeat_after_finishing_radio"
+            style="@style/radioStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/entry_str_repeat_after_finishing"
+            />
+    </LinearLayout>
+</ScrollView>
