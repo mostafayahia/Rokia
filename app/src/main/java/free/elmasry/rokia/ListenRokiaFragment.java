@@ -50,9 +50,9 @@ public class ListenRokiaFragment extends Fragment
         //FrameLayout layout = (FrameLayout) getActivity().findViewById(R.id.container);
 
         // initialized our media player and getting audio duration
-        //mMediaPlayer = MediaPlayer.create(getActivity(), R.raw.rokia);
+        mMediaPlayer = MediaPlayer.create(getActivity(), R.raw.rokia);
         // we use the next audio resource for testing purposes
-        mMediaPlayer = MediaPlayer.create(getActivity(), R.raw.sample5);
+        //mMediaPlayer = MediaPlayer.create(getActivity(), R.raw.sample5);
 
         mMediaPlayer.setLooping(false);
 
